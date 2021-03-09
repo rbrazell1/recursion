@@ -1,4 +1,4 @@
-input,
+input,  expected exception
 
--1,
--2,
+-1,     "java.lang.IllegalArgumentException"
+-2,     "java.lang.IllegalArgumentException"
