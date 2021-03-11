@@ -1,12 +1,11 @@
 package edu.cnm.deepdive;
 
 
-
 public class Factorials {
 
   public static long computeRecursive(int limit) {
     if (limit < 0) {
-      throw new  IllegalArgumentException();
+      throw new IllegalArgumentException();
     }
     if (limit == 0) {
       return 1;
@@ -19,7 +18,7 @@ public class Factorials {
 
     for (int i = 0; i < decomp.length; i++) {
       char x = decomp[i];
-      char y = decomp[decomp.length -1 - i];
+      char y = decomp[decomp.length - 1 - i];
       Character.compare(x, y);
       if (x != y) {
         return false;
@@ -30,5 +29,5 @@ public class Factorials {
 //
 //    }
     return true;
-    }
   }
+}
