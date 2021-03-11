@@ -1,0 +1,7 @@
+input,     expected
+"radar",	 true
+"sonar",	 false
+"abba",	   true
+"abb",	   false
+"x",	     true
+"",	       true
