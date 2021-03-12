@@ -24,10 +24,6 @@ public class Factorials {
         return false;
       }
     }
-
-//    for (int k = 0; k < decomp.length; k++) {
-//
-//    }
     return true;
   }
 }
